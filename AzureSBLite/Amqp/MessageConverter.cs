@@ -137,12 +137,12 @@ namespace ppatierno.AzureSBLite.Messaging.Amqp
 
             if (message.ApplicationProperties != null)
             {
-                foreach (DictionaryEntry pair in message.ApplicationProperties.Map)
+                foreach (var key in message.ApplicationProperties.Map.Keys)
                 {
                     object netObject = null;
-                    if (AqmpObjectToNetObject(pair.Value, out netObject))
+                    if (AqmpObjectToNetObject(message.ApplicationProperties.Map[key], out netObject))
                     {
-                        eventData.Properties[pair.Key] = netObject;
+                        eventData.Properties[key] = netObject;
                     }
                 }
             }
@@ -314,12 +314,12 @@ namespace ppatierno.AzureSBLite.Messaging.Amqp
 
             if (message.ApplicationProperties != null)
             {
-                foreach (DictionaryEntry pair in message.ApplicationProperties.Map)
+                foreach (var key in message.ApplicationProperties.Map.Keys)
                 {
                     object netObject = null;
-                    if (AqmpObjectToNetObject(pair.Value, out netObject))
+                    if (AqmpObjectToNetObject(message.ApplicationProperties.Map[key], out netObject))
                     {
-                        brokeredMessage.Properties[pair.Key] = netObject;
+                        brokeredMessage.Properties[key] = netObject;
                     }
                 }
             }
