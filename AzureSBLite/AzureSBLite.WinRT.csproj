@@ -9,8 +9,8 @@
     <ProjectGuid>{BF8AE4D9-1257-43FB-A58D-8E9BB6DE099B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AzureSBLite.WinRT</RootNamespace>
-    <AssemblyName>AzureSBLite.WinRT</AssemblyName>
+    <RootNamespace>ppatierno.AzureSBLite</RootNamespace>
+    <AssemblyName>AzureSBLite</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>

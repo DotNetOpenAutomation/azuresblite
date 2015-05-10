@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ppatierno.AzureSBLite</RootNamespace>
-    <AssemblyName>AzureSBLite.Net</AssemblyName>
+    <AssemblyName>AzureSBLite</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
