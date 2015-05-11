@@ -7,15 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSBLite.Net", "AzureSBL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSBLite.NetMf43", "AzureSBLite\AzureSBLite.NetMf43.csproj", "{0753D770-B230-4195-BA31-53B0DBCC0AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.Net", "..\amqpnetlite\src\Amqp.Net.csproj", "{92153715-1D99-43B1-B291-470CF91A156D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.Net", "amqpnetlite\src\Amqp.Net.csproj", "{92153715-1D99-43B1-B291-470CF91A156D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.NetMF43", "..\amqpnetlite\src\Amqp.NetMF43.csproj", "{5D8F78FC-0719-495F-9AD0-1EDD7EC9AA19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.NetMF43", "amqpnetlite\src\Amqp.NetMF43.csproj", "{5D8F78FC-0719-495F-9AD0-1EDD7EC9AA19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.Store", "..\amqpnetlite\src\Amqp.Store.csproj", "{647AAC43-DC4A-47F0-8C07-E0DA2C312B30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.Store", "amqpnetlite\src\Amqp.Store.csproj", "{647AAC43-DC4A-47F0-8C07-E0DA2C312B30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSBLite.WinRT", "AzureSBLite\AzureSBLite.WinRT.csproj", "{BF8AE4D9-1257-43FB-A58D-8E9BB6DE099B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.NetCF39", "..\amqpnetlite\src\Amqp.NetCF39.csproj", "{994D25B3-A2C4-4A27-A0E8-3203E954BF58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.NetCF39", "amqpnetlite\src\Amqp.NetCF39.csproj", "{994D25B3-A2C4-4A27-A0E8-3203E954BF58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSBLite.NetCf39", "AzureSBLite\AzureSBLite.NetCf39.csproj", "{BB9B7FF4-6502-41AF-8851-5060B67645E8}"
 EndProject

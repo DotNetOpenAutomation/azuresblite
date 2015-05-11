@@ -82,7 +82,7 @@
     <Folder Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\amqpnetlite\src\Amqp.NetCF39.csproj">
+    <ProjectReference Include="..\amqpnetlite\src\Amqp.NetCF39.csproj">
       <Project>{994D25B3-A2C4-4A27-A0E8-3203E954BF58}</Project>
       <Name>Amqp.NetCF39</Name>
     </ProjectReference>

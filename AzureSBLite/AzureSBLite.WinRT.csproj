@@ -102,7 +102,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <ProjectReference Include="..\..\amqpnetlite\src\Amqp.Store.csproj">
+    <ProjectReference Include="..\amqpnetlite\src\Amqp.Store.csproj">
       <Project>{647aac43-dc4a-47f0-8c07-e0da2c312b30}</Project>
       <Name>Amqp.Store</Name>
     </ProjectReference>

@@ -79,7 +79,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\amqpnetlite\src\Amqp.Net.csproj">
+    <ProjectReference Include="..\amqpnetlite\src\Amqp.Net.csproj">
       <Project>{92153715-1d99-43b1-b291-470cf91a156d}</Project>
       <Name>Amqp.Net</Name>
     </ProjectReference>

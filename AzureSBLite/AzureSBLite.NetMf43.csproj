@@ -72,7 +72,7 @@
     <Reference Include="System.Text.RegularExpressions" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\amqpnetlite\src\Amqp.NetMF43.csproj">
+    <ProjectReference Include="..\amqpnetlite\src\Amqp.NetMF43.csproj">
       <Project>{5D8F78FC-0719-495F-9AD0-1EDD7EC9AA19}</Project>
       <Name>Amqp.NetMF43</Name>
     </ProjectReference>
