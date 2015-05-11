@@ -1,0 +1,3 @@
+[submodule "amqpnetlite"]
+	path = amqpnetlite
+	url = git@github.com:DotNetOpenAutomation/amqpnetlite.git
